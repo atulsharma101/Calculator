@@ -1,0 +1,33 @@
+.calculator{
+  text-align: center;
+}
+#input{
+    text-align: center;
+    margin: 50px;
+    font-size: medium;
+    background-color:black;
+}
+.row{
+    color: white;
+  
+}
+td{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-size: 20px;
+}
+td:hover{
+    color: black;
+    background-color:antiquewhite;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    height: 20px;
+  }
+p{
+    font-size: 20px;
+}
+  

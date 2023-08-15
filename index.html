@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculator</h1>
+        
+        <table id="input">
+            <p id="result"></p>
+            <tr class="row">
+                <td id="seven" onclick="digit(seven)" onkeyup="digit(seven)">7</td>
+                <td id="eight" onclick="digit(eight)">8</td>
+                <td id="nine" onclick="digit(nine)">9</td>
+                <td id="multiply" onclick="multiply()">x</td>
+            </tr>
+            <tr class="row">
+                <td id="four" onclick="digit(four)">4</td>
+                <td id="five" onclick="digit(five)">5</td>
+                <td id="six" onclick="digit(six)">6</td>
+                <td id="sub" onclick="sub()">-</td>
+            </tr>
+            <tr class="row">
+                <td id="one" onclick="digit(one)">1</td>
+                <td id="two" onclick="digit(two)">2</td>
+                <td id="three" onclick="digit(three)">3</td>
+                <td id="multiply" onclick="add()">+</td>
+            </tr>
+            <tr class="row">
+                <td id="zero" onclick="digit(zero)">0</td>
+                <td id="decimal" onclick="digit(decimal)">.</td>
+                <td id="div" onclick="div()">/</td>
+                <td id="equal" onclick="equal()">=</td>
+            </tr>
+           <button value = "clear" type = "clear"  onclick="clear_data()">Clear</button>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
